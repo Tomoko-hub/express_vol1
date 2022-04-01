@@ -30,6 +30,6 @@ app.post("/delete", function(req, res){
 
 const port = process.env.PORT || 5000;
 
-app.listen(part, function(){
+app.listen(port, function(){
     console.log(`Listening on ${port}`);
 });
